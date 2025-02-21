@@ -1,0 +1,19 @@
+{
+  "name": "NewUseCase",
+  "description": "Add new Use-Case",
+  "param": [
+    "name",
+    "responseType"
+  ],
+  "selectParam": [],
+  "addFile": [
+    {
+      "name": "{name}UseCase.kt",
+      "path": "",
+      "fileTemplatePath": "NewUseCase.tm"
+    }
+  ],
+  "insertInFile": [],
+  "extensions": [],
+  "globalBasePath": ""
+}

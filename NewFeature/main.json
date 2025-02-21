@@ -1,0 +1,38 @@
+{
+  "name": "NewFeature",
+  "description": "Empty Template Description",
+  "param": [
+    "name"
+  ],
+  "selectParam": [],
+  "addFile": [
+    {
+      "name": "{name}Screen.kt",
+      "path": "",
+      "fileTemplatePath": "NewFeatureScreen.tm"
+    },
+    {
+      "name": "{name}ScreenState.kt",
+      "path": "",
+      "fileTemplatePath": "NewFeatureState.tm"
+    },
+    {
+      "name": "{name}ScreenEvent.kt",
+      "path": "",
+      "fileTemplatePath": "NewFeatureEvent.tm"
+    },
+    {
+      "name": "{name}ScreenStateEvent.kt",
+      "path": "",
+      "fileTemplatePath": "NewFeatureStateEvent.tm"
+    },
+    {
+      "name": "{name}ViewModel.kt",
+      "path": "",
+      "fileTemplatePath": "NewFeatureViewModel.tm"
+    }
+  ],
+  "insertInFile": [],
+  "extensions": [],
+  "globalBasePath": ""
+}

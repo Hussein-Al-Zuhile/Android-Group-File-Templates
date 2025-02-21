@@ -1,0 +1,126 @@
+{
+  "name": "InitiateProject",
+  "description": "Empty Template Description",
+  "param": [],
+  "selectParam": [],
+  "addFile": [
+    {
+      "name": "BaseMQTTClient.kt",
+      "path": "data/datasource/remote/mqtt",
+      "fileTemplatePath": "BaseMQTTClient.tm"
+    },
+    {
+      "name": "BaseRemoteService.kt",
+      "path": "data/datasource/remote/http/services",
+      "fileTemplatePath": "BaseRemoteService.tm"
+    },
+    {
+      "name": "ApiResources.kt",
+      "path": "data/datasource/remote/http",
+      "fileTemplatePath": "ApiResources.tm"
+    },
+    {
+      "name": "HttpClients.kt",
+      "path": "data/datasource/remote/http",
+      "fileTemplatePath": "HttpClients.tm"
+    },
+    {
+      "name": "MainRepository.kt",
+      "path": "data/repository",
+      "fileTemplatePath": "MainRepository.tm"
+    },
+    {
+      "name": "MainModule.kt",
+      "path": "di",
+      "fileTemplatePath": "MainModule.tm"
+    },
+    {
+      "name": "ExampleMQTTClient.kt",
+      "path": "data/datasource/remote/mqtt",
+      "fileTemplatePath": "ExampleMQTTClient.tm"
+    },
+    {
+      "name": "BaseUseCase.kt",
+      "path": "domain/base",
+      "fileTemplatePath": "BaseUseCase.tm"
+    },
+    {
+      "name": "Result.kt",
+      "path": "domain/base",
+      "fileTemplatePath": "Result.tm"
+    },
+    {
+      "name": "BaseUIState.kt",
+      "path": "presentation/base",
+      "fileTemplatePath": "BaseUIState.tm"
+    },
+    {
+      "name": "BaseViewModel.kt",
+      "path": "presentation/base",
+      "fileTemplatePath": "BaseViewModel.tm"
+    },
+    {
+      "name": "DataStoreManager.kt",
+      "path": "presentation/base",
+      "fileTemplatePath": "DataStoreManager.tm"
+    },
+    {
+      "name": "MessageSnackbar.kt",
+      "path": "presentation/base",
+      "fileTemplatePath": "MessageSnackbar.tm"
+    },
+    {
+      "name": "PreviewAnnotations.kt",
+      "path": "presentation/base",
+      "fileTemplatePath": "PreviewAnnotations.tm"
+    },
+    {
+      "name": "StateEvent.kt",
+      "path": "presentation/base",
+      "fileTemplatePath": "StateEvent.tm"
+    },
+    {
+      "name": "Color.kt",
+      "path": "presentation/theme",
+      "fileTemplatePath": "Color.tm"
+    },
+    {
+      "name": "Dimens.kt",
+      "path": "presentation/theme",
+      "fileTemplatePath": "Dimens.tm"
+    },
+    {
+      "name": "Theme.kt",
+      "path": "presentation/theme",
+      "fileTemplatePath": "Theme.tm"
+    },
+    {
+      "name": "Type.kt",
+      "path": "presentation/theme",
+      "fileTemplatePath": "Type.tm"
+    },
+    {
+      "name": "MainActivity.kt",
+      "path": "presentation/main",
+      "fileTemplatePath": "MainActivity.tm"
+    },
+    {
+      "name": "LocaleManager.kt",
+      "path": "utils",
+      "fileTemplatePath": "LocaleManager.tm"
+    },
+    {
+      "name": "Extensions.kt",
+      "path": "utils",
+      "fileTemplatePath": "Extensions.tm"
+    },
+    {
+      "name": "UIText.kt",
+      "path": "utils",
+      "fileTemplatePath": "UIText.tm"
+    }
+  ],
+  "insertInFile": [],
+  "extensions": [],
+  "globalBasePath": ""
+}
