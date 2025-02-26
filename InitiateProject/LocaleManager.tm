@@ -13,10 +13,10 @@ object LocaleManager {
 
     val DefaultLanguage = Locale.ENGLISH
 
-    fun getCurrentLanguage(): Locale = AppCompatDelegate.getApplicationLocales()
+    fun getCurrentLocale(): Locale = AppCompatDelegate.getApplicationLocales()
         .takeIf { it != LocaleListCompat.getEmptyLocaleList() }?.get(0) ?: DefaultLanguage
 
-    fun setCurrentLanguage(locale: Locale) {
+    fun setCurrentLocale(locale: Locale) {
         AppCompatDelegate.setApplicationLocales(LocaleListCompat.create(locale))
     }
 }
