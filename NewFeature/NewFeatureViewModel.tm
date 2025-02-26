@@ -4,8 +4,6 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 
-import {package}.presentation.base.BaseViewModel
-
 class {name}ViewModel : BaseViewModel<{name}ScreenStateEvent>() {
 
     var state by mutableStateOf({name}ScreenState())
