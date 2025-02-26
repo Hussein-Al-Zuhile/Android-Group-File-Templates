@@ -173,7 +173,7 @@
     },
     {
       "name": "themes.xml",
-      "path": "",
+      "path": "res/values",
       "fileTemplatePath": "themes.tm"
     }
   ],
