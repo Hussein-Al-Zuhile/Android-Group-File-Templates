@@ -1,7 +1,7 @@
 package {package}
 
-import com.tatweer.smartdrivingtest.presentation.base.BaseUIState
-import com.tatweer.smartdrivingtest.utils.UIText
+import {package}.presentation.base.BaseUIState
+import {package}.utils.UIText
 
 data class {name}ScreenState(
     override val isLoading: Boolean = false,

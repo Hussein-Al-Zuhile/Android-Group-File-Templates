@@ -1,4 +1,4 @@
-package {package}
+package {package}.utils
 
 import android.annotation.SuppressLint
 import android.app.LocaleConfig

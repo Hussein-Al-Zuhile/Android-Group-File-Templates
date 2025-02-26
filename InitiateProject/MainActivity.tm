@@ -1,4 +1,4 @@
-package {package}
+package {package}.presentation.main
 
 import android.app.PendingIntent
 import android.content.Intent
@@ -33,6 +33,10 @@ import kotlinx.coroutines.launch
 import org.koin.androidx.compose.koinViewModel
 import org.koin.compose.KoinContext
 
+import {package}.presentation.base.MessageSnackbar
+import {package}.utils.UIText
+import {package}.presentation.theme.AppTheme
+
 @OptIn(ExperimentalSharedTransitionApi::class)
 val LocalSharedTransitionScope = compositionLocalOf<SharedTransitionScope?> { null }
 val LocalAnimatedContentScope = compositionLocalOf<AnimatedContentScope?> { null }
@@ -49,7 +53,6 @@ class MainActivity : AppCompatActivity() {
         setContent {
             KoinContext {
                 AppTheme {
-                    val viewModel: MainViewModel = koinViewModel()
 
                     // Observe event messages.
                     val snackbarHostState = remember { SnackbarHostState() }

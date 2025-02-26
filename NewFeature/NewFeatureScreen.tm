@@ -3,7 +3,7 @@ package {package}
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.tatweer.smartdrivingtest.presentation.theme.AppTheme
+import {package}.presentation.theme.AppTheme
 
 @Composable
 fun {name}Screen(

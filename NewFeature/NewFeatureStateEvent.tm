@@ -1,6 +1,6 @@
 package {package}
 
-import com.tatweer.smartdrivingtest.presentation.base.StateEvent
+import {package}.presentation.base.StateEvent
 
 
 sealed interface {name}ScreenStateEvent: StateEvent

@@ -1,0 +1,7 @@
+<templateSet group="Compose Foundation Live Templates">
+  <template name="row" value="androidx.compose.foundation.layout.Row(&#10;horizontalArrangement = $ARRANGEMENT$,&#10;modifier = androidx.compose.ui.Modifier&#10;) {$CURSOR$&#10;}" description="Create @Composable Row" toReformat="true" toShortenFQNames="true">
+    <variable name="ARRANGEMENT" expression="&quot;androidx.compose.foundation.layout.Arrangement.Start&quot;" defaultValue="" alwaysStopAt="true" />
+    <variable name="CURSOR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+</templateSet>

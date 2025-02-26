@@ -1,4 +1,6 @@
-package {package}
+package {package}.data.repository
+
+import {package}.data.base.BaseRepository
 
 class MainRepository() : BaseRepository() {
 

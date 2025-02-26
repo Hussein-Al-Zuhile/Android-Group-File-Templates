@@ -1,6 +1,7 @@
-package com.tatweer.smartdrivingtest.domain.base
+package {package}.domain.base
 
-import com.tatweer.smartdrivingtest.utils.UIText
+import {package}.utils.UIText
+import {package}.domain.base.Result
 import kotlinx.coroutines.flow.catch
 import kotlinx.coroutines.flow.flow
 

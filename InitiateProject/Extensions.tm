@@ -1,4 +1,4 @@
-package com.tatweer.smartdrivingtest.utils
+package {package}.utils
 
 import android.content.Context
 import android.graphics.Bitmap
@@ -25,6 +25,10 @@ import kotlinx.serialization.serializer
 import java.time.Instant
 import java.time.ZoneId
 import java.time.format.DateTimeFormatter
+
+import {package}.data.base.MQTTEvent
+import {package}.presentation.main.LocalAnimatedContentScope
+import {package}.presentation.main.LocalSharedTransitionScope
 
 @Composable
 fun <T> ReceiveChannel<T>.ConsumeEach(onReceived: suspend (T) -> Unit) {

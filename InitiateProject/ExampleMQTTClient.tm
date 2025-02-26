@@ -1,4 +1,4 @@
-package {package}
+package {package}.data.datasource.remote.mqtt
 
 import com.hivemq.client.mqtt.lifecycle.MqttClientAutoReconnect
 import com.hivemq.client.mqtt.mqtt3.Mqtt3Client
@@ -6,6 +6,8 @@ import com.hivemq.client.mqtt.mqtt3.message.publish.Mqtt3Publish
 import java.util.UUID
 import java.util.concurrent.CompletableFuture
 import java.util.concurrent.TimeUnit
+import {package}.data.base.BaseMQTTClient
+import {package}.data.base.MQTTEvent
 
 class ExampleMQTTClient : BaseMQTTClient() {
 

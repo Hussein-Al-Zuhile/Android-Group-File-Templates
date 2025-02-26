@@ -1,4 +1,4 @@
-package {package}
+package {package}.presentation.theme
 
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.MaterialTheme

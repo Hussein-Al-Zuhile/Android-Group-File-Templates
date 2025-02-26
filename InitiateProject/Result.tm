@@ -1,4 +1,8 @@
-package {package}
+package {package}.domain.base
+
+import {package}.R
+import {package}.utils.MessageType
+import {package}.utils.UIText
 
 sealed class Result<T>() {
 

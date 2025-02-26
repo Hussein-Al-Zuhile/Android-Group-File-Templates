@@ -1,4 +1,4 @@
-package {package}
+package {package}.data.datasource.remote.http
 
 import io.ktor.resources.Resource
 import kotlinx.serialization.Serializable

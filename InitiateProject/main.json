@@ -1,18 +1,35 @@
 {
   "name": "InitiateProject",
   "description": "Empty Template Description",
-  "param": [],
+  "param": [
+    "Project Name"
+  ],
   "selectParam": [],
   "addFile": [
     {
       "name": "BaseMQTTClient.kt",
-      "path": "data/datasource/remote/mqtt",
+      "path": "data/base",
       "fileTemplatePath": "BaseMQTTClient.tm"
     },
     {
+      "name": "BasePagingDataSource.kt",
+      "path": "data/base",
+      "fileTemplatePath": "BasePagingDataSource.tm"
+    },
+    {
       "name": "BaseRemoteService.kt",
-      "path": "data/datasource/remote/http/services",
+      "path": "data/base",
       "fileTemplatePath": "BaseRemoteService.tm"
+    },
+    {
+      "name": "BaseRepository.kt",
+      "path": "data/base",
+      "fileTemplatePath": "BaseRepository.tm"
+    },
+    {
+      "name": "MQTTEvent.kt",
+      "path": "data/base",
+      "fileTemplatePath": "MQTTEvent.tm"
     },
     {
       "name": "ApiResources.kt",
@@ -118,6 +135,46 @@
       "name": "UIText.kt",
       "path": "utils",
       "fileTemplatePath": "UIText.tm"
+    },
+    {
+      "name": "font_certs.xml",
+      "path": "res/values",
+      "fileTemplatePath": "font_certs.tm"
+    },
+    {
+      "name": "strings.xml",
+      "path": "res/values",
+      "fileTemplatePath": "strings.tm"
+    },
+    {
+      "name": "build.gradle.kts",
+      "path": "~/",
+      "fileTemplatePath": "ProjectGradle.tm"
+    },
+    {
+      "name": "build.gradle.kts",
+      "path": "~/app",
+      "fileTemplatePath": "AppGradle.tm"
+    },
+    {
+      "name": "libs.versions.toml",
+      "path": "~/gradle",
+      "fileTemplatePath": "LibsVersionsToml.tm"
+    },
+    {
+      "name": "App.kt",
+      "path": "",
+      "fileTemplatePath": "App.tm"
+    },
+    {
+      "name": "AndroidManifest.xml",
+      "path": "~/app/src/main",
+      "fileTemplatePath": "AndroidManifest.tm"
+    },
+    {
+      "name": "themes.xml",
+      "path": "",
+      "fileTemplatePath": "themes.tm"
     }
   ],
   "insertInFile": [],

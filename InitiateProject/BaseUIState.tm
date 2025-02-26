@@ -1,6 +1,6 @@
-package com.tatweer.smartdrivingtest.presentation.base
+package {package}.presentation.base
 
-import com.tatweer.smartdrivingtest.utils.UIText
+import {package}.utils.UIText
 
 abstract class BaseUIState(
     open val isLoading: Boolean = false,

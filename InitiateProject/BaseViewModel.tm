@@ -1,4 +1,4 @@
-package com.tatweer.smartdrivingtest.presentation.base
+package {package}.presentation.base
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope

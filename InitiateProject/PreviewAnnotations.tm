@@ -1,4 +1,4 @@
-package {package}
+package {package}.presentation.base
 
 import android.content.res.Configuration.UI_MODE_NIGHT_YES
 import androidx.compose.ui.tooling.preview.Preview

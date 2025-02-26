@@ -1,4 +1,4 @@
-package {package}
+package {package}.presentation.base
 
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Snackbar
@@ -10,6 +10,10 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import {package}.presentation.theme.AppTheme
+import {package}.utils.MessageType
+import {package}.utils.UIText
+
 
 
 @Composable

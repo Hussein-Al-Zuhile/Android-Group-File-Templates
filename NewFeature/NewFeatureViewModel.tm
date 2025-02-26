@@ -4,7 +4,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 
-import com.tatweer.smartdrivingtest.presentation.base.BaseViewModel
+import {package}.presentation.base.BaseViewModel
 
 class {name}ViewModel : BaseViewModel<{name}ScreenStateEvent>() {
 

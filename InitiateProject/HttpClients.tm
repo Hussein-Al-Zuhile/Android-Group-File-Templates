@@ -1,4 +1,4 @@
-package {package}
+package {package}.data.datasource.remote.http
 
 import android.util.Log
 import io.ktor.client.HttpClient
