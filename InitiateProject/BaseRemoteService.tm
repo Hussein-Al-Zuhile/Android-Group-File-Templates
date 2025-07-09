@@ -21,7 +21,6 @@ abstract class BaseRemoteService(protected val client: HttpClient) {
         resource: T,
         builder: HttpRequestBuilder.() -> Unit = {}
     ): HttpResponse {
-        client.submitForm()
         return client.post(resource, builder)
     }
 
